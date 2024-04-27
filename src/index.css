@@ -2,26 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: "Poppins", ;
-  /* background-color: #151515; */
-}
-.active {
-  color: #FE9226;
-}
-.hh {
-  color: rgb(71, 71, 71);
-}
-.header  {
-  background-image: url("../public/Images/home-bg.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.f input {
-  outline: none;
-}
-.t input {
-  outline: none;
-}
-.tx textarea{
-  outline: none;
+  font-family: "Karla", ;
 }

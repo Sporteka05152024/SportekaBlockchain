@@ -1,9 +1,25 @@
 function Footer() {
     return (
         <>
-            <div className="flex justify-center p-4 items-center bg-[#E4E4E4]">
-                <img src="./Images/p.png" className="w-[2%] rounded-full" alt="" />
-                <footer className="p-1 flex justify-center items-center">&copy;2024 Emeka. All Rights Reserved.</footer>
+            <hr className='mt-[20px]'/>
+            <div className="py-[20px] pl-[20px] pr-[50px] grid grid-cols-3 gap-4 sm:grid-cols-1 lg:grid-cols-3">
+                <div className="">
+                    <img  className='w-36' src="/Images/Component 2.png" alt="" />
+                </div>
+                <div className="links">
+                    <ul className="ml-[40px]">
+                        <li>Contact us</li>
+                        <li>Marketplace</li>
+                        <li>Resources</li>
+                    </ul>
+                </div>
+                <div className="links2">
+                    <ul className="ml-[40px]">
+                        <li>Trade</li>
+                        <li>Data gathering</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
             </div>
         </>
     )
