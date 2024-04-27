@@ -3,6 +3,7 @@ import LandingPage from './pages/Agrixlanding';
 import Marketplace from './pages/Marketplace'
 import SignIn from './pages/Signin';
 import SignUp from './pages/Signup';
+import Dashboard from './pages/dashboard';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/login" element={<SignIn />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
     </>

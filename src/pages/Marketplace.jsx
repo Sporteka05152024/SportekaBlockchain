@@ -4,7 +4,7 @@ function Marketplace () {
     return (
         <>
             <NavBar/>
-            <div className="flex justify-center items-center pt-[150px] flex-col">
+            <div className="flex justify-center items-center pt-[150px] flex-col" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className="">
                     <h1 className='text-center text-[30px] font-medium mb-[40px] sm:text-[25px] lg:text-[30px]'>WHAT YOU NEED TO DO?</h1>
                 </div>
@@ -13,13 +13,13 @@ function Marketplace () {
                         <img className='w-[25%]' src="/Images/soyo.png" alt="" />
                         <h2 className='text-[20px] font-medium mt-[10px] mb-[10px]'>Farmer or Researcher</h2>
                         <p className='text-[16px] w-[70%] mb-[20px] text-center sm:w-[90%] sm:text-[15px] lg:w-[70%] lg:text-[16px]'>Gather, store,track and collect biodiversity datas. leverage and egenerate food security and practices</p>
-                        <button className='p-[8px] w-[40%] rounded-md text-white bg-[#1BB518] mb-[30px]' type="submit"><a href="/signUp">SignUp</a></button>
+                        <button className='p-[8px] w-[40%] rounded-md text-white bg-[#1BB518] mb-[30px]' type="submit"><a href="/signUp">Sign up</a></button>
                     </div>
                     <div className="flex justify-center items-center flex-col shadow-md w-[90%] sm:w-full lg:w-[90%]">
                         <img className='w-[25%]' src="/Images/sell.png" alt="" />
                         <h2 className='text-[20px] font-medium mt-[10px] mb-[10px]'>Trader</h2>
                         <p  className='text-[16px] w-[60%] mb-[20px] text-center sm:w-[90%] sm:text-[15px] lg:w-[70%] lg:text-[16px]'>Track, trade,manage and invest in agriculture products</p>
-                        <button className='p-[8px] w-[40%] rounded-md text-white bg-[#1BB518] mb-[30px]' type="submit"><a href="/login">SignIn</a></button>
+                        <button className='p-[8px] w-[40%] rounded-md text-white bg-[#1BB518] mb-[30px]' type="submit"><a href="/login">Sign in</a></button>
                     </div>
                 </div>
             </div>
@@ -30,11 +30,11 @@ function Marketplace () {
                 </div>
                 <img className="w-[65%]" src="/Images/dd.png" alt="" />
             </div>
-            <div className="flex justify-center items-center flex-col mt-[80px]">
+            <div className="flex justify-center items-center flex-col mt-[80px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <h1 className='text-[35px] font-medium mb-[30px] sm:text-[30px] lg:text-[35px]'>YOU’RE IN CONTROL</h1>
                 <p className='mb-[70px] text-center w-[40%] sm:w-[90%] lg:w-[40%]'>Funding agriculture, biodiversity and foods products and businesses with crypto coins and trade on them to earn</p>
             </div>
-            <div className="flex justify-center items-center flex-col py-[40px] pl-[40px] pr-[20px] bg-[#F0BD07] sm:pl-[20px] lg:pl-[40px]">
+            <div className="flex justify-center items-center flex-col py-[40px] pl-[40px] pr-[20px] bg-[#F0BD07] sm:pl-[20px] lg:pl-[40px]" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <h2 className='text-center mb-[40px] text-[20px] font-medium w-[60%] sm:w-full lg:w-[60%]'>Take Advantage of market opportunities and get finance as a biodiversity business or a Investor</h2>
                 <div className="grid grid-cols-4 gap-4 sm:grid-cols-1 lg:grid-cols-4">
                     <div className="mr-[30px] mb-[30px]">

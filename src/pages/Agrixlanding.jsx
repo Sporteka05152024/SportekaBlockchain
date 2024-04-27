@@ -15,9 +15,9 @@ function LandingPage () {
                 <img className='w-full' src="/Images/img 3.png" alt="" />
                 <img className='w-full' src="/Images/img 4.png" alt="" />
             </div>
-            <div className="pt-[60px] ml-[50px] mr-[30px] mb-[30px]">
+            <div className="pt-[60px] ml-[50px] mr-[30px] mb-[30px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <h1 className='text-[35px] mb-[20px] text-center font-semibold sm:text-[30px]'>Soultions</h1>
-                <div className="grid grid-cols-4 gap-4 sm:grid-cols-2 lg:grid-cols-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="grid grid-cols-4 gap-4 sm:grid-cols-2 lg:grid-cols-4">
                     <div className="">
                         <img className='' src="/Images/img5.png" alt="" />
                         <h2 className='mt-[20px] text-[22px] font-medium sm:text-[20px] lg:text-[22px]'>For Farmers</h2>
