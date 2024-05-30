@@ -19,10 +19,11 @@ function NavBar () {
                     </div>
                     <ul className="flex justify-center items-center text-[16px] space-x-5 text-black font-serif sm:hidden md:hidden lg:flex">
                         <li className="text-center text-md font-bold"><a className='pr-3' href="/home">Players</a></li>
-                        <li className="text-center text-md font-bold"><a className='pr-3' href="/">Listing</a></li>
-                        <li className="text-center text-md font-bold"><a className='pr-3' href="/">Clubs</a></li>
-                        <li className="text-center text-md font-bold"><a className='pr-3' href="/">Trade</a></li>
-                        <li className="text-center text-md font-bold"><a className='pr-3' href="/">Earn</a></li>
+                        <li className="text-center text-md font-bold"><a className='pr-3' href="/sportekauser">Listing</a></li>
+                        <li className="text-center text-md font-bold"><a className='pr-3' href="/clubs">Clubs</a></li>
+                        <li className="text-center text-md font-bold"><a className='pr-3' href="/trade">Trade</a></li>
+                        <li className="text-center text-md font-bold"><a className='pr-3' href="/invest">Earn</a></li>
+                        <li className="text-center text-md font-bold"><a className='pr-3' href="/">Tradebet</a></li>
                         <li className="text-center text-md font-bold"><a className='pr-3' href="/login">Log In</a></li>
                         <button className="text-center text-md bg-[#0F0F0F] text-[16px] text-white py-[6px] px-[22px] rounded-lg"><a className='' href="/signUp">Sign up</a></button>
                        
@@ -30,11 +31,12 @@ function NavBar () {
                     <div className={!nav ? 'fixed left-[-100%]' : 'fixed z-[1000] left-0 top-0 w-[40%] text-black mt-[76px] h-full bg-white shadow-md ease-in-out duration-500 sm:w-[80%] md:w-[40%] lg:hidden'}>
                         <ul className="w-full p-12 space-y-6  font-serif">
                             <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/home">Players</a></li>
-                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/">Listing</a></li>
-                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/">Clubs</a></li>
-                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/">Trade</a></li>
-                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/">Earn</a></li>
-                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav}  href="/login">Log In</a></li>
+                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/sportekauser">Listing</a></li>
+                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/clubs">Clubs</a></li>
+                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/trade">Trade</a></li>
+                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/userdashboard">Earn</a></li>
+                        <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav} href="/">Tradebet</a></li>
+                            <li className="text-left text-md font-bold"><a className='pr-3' onClick={showNav}  href="/clubreg">Log In</a></li>
                             <button className="text-center text-md bg-[#0F0F0F] text-[16px] text-white py-[6px] px-[22px] rounded-lg"><a className='' onClick={showNav}  href="/signUp">Sign up</a></button>
                         </ul>
                     </div>  

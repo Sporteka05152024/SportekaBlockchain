@@ -2,22 +2,28 @@ function Footer() {
     return (
         <>
             <hr className='mt-[20px]'/>
-            <div className="py-[20px] pl-[20px] pr-[50px] grid grid-cols-3 gap-4 sm:grid-cols-1 lg:grid-cols-3">
-                <div className="">
-                    <img  className='w-36' src="/Images/Component 2.png" alt="" />
+            <div className="py-[40px] pl-[20px] text-[16px] pr-[50px] grid grid-cols-3 gap-4 bg-black text-white  font-serif sm:grid-cols-1 lg:grid-cols-3">
+                <div className="links">
+                    <ul className="ml-[40px]">
+                        <li>Terms and condition </li>
+                        <li>Privacy policy</li>
+                        <li>Contact us</li>
+                    </ul>
                 </div>
                 <div className="links">
                     <ul className="ml-[40px]">
-                        <li>Contact us</li>
-                        <li>Marketplace</li>
-                        <li>Resources</li>
+                        <li>Trade</li>
+                        <li>How it works</li>
+                        <li>Analysis</li>
+                        <li>Predictions</li>
                     </ul>
                 </div>
                 <div className="links2">
                     <ul className="ml-[40px]">
-                        <li>Trade</li>
-                        <li>Data gathering</li>
-                        <li>Support</li>
+                        <li>Careers</li>
+                        <li>Investors</li>
+                        <li>Media</li>
+                        <li>News</li>
                     </ul>
                 </div>
             </div>
